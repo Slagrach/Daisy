@@ -223,8 +223,8 @@ body.lock {
 
 @font-face {
   font-family: 'FontAwesome';
-  src: url("../../fonts/fontawesome-webfont.eot?v=4.7.0");
-  src: url("../../fonts/fontawesome-webfont.eot?#iefix&v=4.7.0") format("embedded-opentype"), url("../../fonts/fontawesome-webfont.woff2?v=4.7.0") format("woff2"), url("../../fonts/fontawesome-webfont.woff?v=4.7.0") format("woff"), url("../../fonts/fontawesome-webfont.ttf?v=4.7.0") format("truetype"), url("../../fonts/fontawesome-webfont.svg?v=4.7.0#fontawesomeregular") format("svg");
+  src: url("../fonts/fontawesome-webfont.eot?v=4.7.0");
+  src: url("../fonts/fontawesome-webfont.eot?#iefix&v=4.7.0") format("embedded-opentype"), url("../fonts/fontawesome-webfont.woff2?v=4.7.0") format("woff2"), url("../fonts/fontawesome-webfont.woff?v=4.7.0") format("woff"), url("../fonts/fontawesome-webfont.ttf?v=4.7.0") format("truetype"), url("../fonts/fontawesome-webfont.svg?v=4.7.0#fontawesomeregular") format("svg");
   font-weight: normal;
   font-style: normal;
 }
@@ -3402,7 +3402,7 @@ body.lock {
 /*- -------------------- <intro-start> -------------------- -*/
 
 .intro {
-  background: url("../../img/introBg.png") center/cover no-repeat;
+  background: url("../img/introBg.png") center/cover no-repeat;
 }
 
 .intro-content {
@@ -3681,7 +3681,7 @@ body.lock {
   position: relative;
   top: 89px;
   left: -6px;
-  content: url("../../img/hexagon.png");
+  content: url("../img/hexagon.png");
 }
 
 .hexa2 {
@@ -3693,7 +3693,7 @@ body.lock {
   position: relative;
   top: 89px;
   left: -6px;
-  content: url("../../img/hexagon2.png");
+  content: url("../img/hexagon2.png");
 }
 
 /*- -------------------- </What-end> -------------------- -*/
@@ -3703,7 +3703,7 @@ body.lock {
 /*- -------------------- <expand-start> -------------------- -*/
 
 .expand {
-  background: url("../../img/expandBg.png") center/cover no-repeat;
+  background: url("../img/expandBg.png") center/cover no-repeat;
   padding: 116px 0 0 0;
 }
 
@@ -4290,9 +4290,7 @@ tspan {
   color: #fc635e;
   opacity: .5;
   -webkit-transition: opacity .2s linear, -webkit-transform .2s linear;
-  transition: opacity .2s linear, -webkit-transform .2s linear;
   -o-transition: transform .2s linear, opacity .2s linear;
-  transition: transform .2s linear, opacity .2s linear;
   transition: transform .2s linear, opacity .2s linear, -webkit-transform .2s linear;
 }
 
@@ -4523,7 +4521,7 @@ tspan {
   width: 68px;
   height: 78px;
   position: absolute;
-  content: url("../../img/quotes.png");
+  content: url("../img/quotes.png");
   top: 5px;
   left: 4px;
   padding: 25px 17px;
@@ -4568,12 +4566,12 @@ tspan {
 
 .slick-arrow.slick-prev {
   left: 45%;
-  background: url("../../img/left.svg") center center/68% no-repeat;
+  background: url("../img/left.svg") center center/68% no-repeat;
 }
 
 .slick-arrow.slick-next {
   left: 52%;
-  background: url("../../img/right.svg") center center/68% no-repeat;
+  background: url("../img/right.svg") center center/68% no-repeat;
 }
 
 .comment-item {
@@ -4695,7 +4693,7 @@ tspan {
 /*- -------------------- <footer-start> -------------------- -*/
 
 .footer {
-  background: url("../../img/footerBg.png") center/cover no-repeat;
+  background: url("../img/footerBg.png") center/cover no-repeat;
 }
 
 .footer-content {
@@ -4917,17 +4915,17 @@ tspan {
   }
 }
 
-@media (max-width: 332pxpx) {
+@media (max-width: 332px) {
   .container {
     max-width: 970px;
   }
 }
 @supports (-webkit-appearance:none){
-.intro{background:url("../../img/introBg.webp") center/cover no-repeat}
-.expand{background:url("../../img/expandBg.webp") center/cover no-repeat}
-.slick-arrow.slick-prev{background:url("../../img/left.svg") center center/68% no-repeat}
-.slick-arrow.slick-next{background:url("../../img/right.svg") center center/68% no-repeat}
-.footer{background:url("../../img/footerBg.webp") center/cover no-repeat}
+.intro{background:url("../img/introBg.webp") center/cover no-repeat}
+.expand{background:url("../img/expandBg.webp") center/cover no-repeat}
+.slick-arrow.slick-prev{background:url("../img/left.svg") center center/68% no-repeat}
+.slick-arrow.slick-next{background:url("../img/right.svg") center center/68% no-repeat}
+.footer{background:url("../img/footerBg.webp") center/cover no-repeat}
 }
 
  @media (max-width: 991.98px){
@@ -4954,7 +4952,7 @@ tspan {
 
 }
 
- @media (max-width: 332pxpx){
+ @media (max-width: 332px){
 
 @supports (-webkit-appearance:none){
 
